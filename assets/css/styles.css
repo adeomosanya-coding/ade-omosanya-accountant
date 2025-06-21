@@ -20,66 +20,29 @@ body {
 }
 
 
-/* Header */
-header {
+/* Navbar */
+#navbar {
     background-color: #254e70;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    color: #ffffff;
-    width: 100%;
-    box-shadow: 0 2px 2px #aef3e7;
 }
 
-#logo {
-    margin-bottom: 0em;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-h1 {
+.navbar .logo {
     font-family: 'dm-serif-text', serif;
-    letter-spacing: 1px;
-    color: #ffffff;
-}
-
-#navigation-menu > li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid;
-}
-
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: #254e70;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #aef3e7;
-    display: none;
+    font-size: 30px;
 }
 
 
 
-
-#navigation-menu {
-    list-style-type: none;
-}
 
 /* Main content */
 main {
     background-color: #ffffff;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 55px;
 }
 
 /* Footer */
 footer {
     background-color: #254e70;
+    color: #ffffff;
 }
