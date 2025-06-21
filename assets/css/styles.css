@@ -31,6 +31,10 @@ header {
     box-shadow: 0 2px 2px #aef3e7;
 }
 
+#logo {
+    margin-bottom: 0.5em;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -40,6 +44,18 @@ h1 {
     font-family: 'dm-serif-text', serif;
     letter-spacing: 1px;
     color: #ffffff;
+}
+
+#navigation-menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
+#navigation-menu {
+    list-style-type: none;
 }
 
 /* Main content */
