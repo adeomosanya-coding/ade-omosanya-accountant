@@ -1,6 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 
 /* Asterix wildcard selector to override default styles added by the browser */
@@ -17,14 +16,17 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #100507;
-    font-family: 'dm-serif-text', sans-serif; 
-
+    font-family: 'roboto-flex', sans-serif;
 }
 
 
 /* Header */
 header {
     background-color: #254e70;
+}
+
+h1 {
+    font-family: 'dm-serif-text', serif;
 }
 
 /* Main content */
