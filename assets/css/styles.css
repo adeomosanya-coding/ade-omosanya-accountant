@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
 
 
+:root {
+    --black: #100507;
+    --darker-navy: #254e70;
+    --lighter-blue: #37718e;
+    --light-green: #aef3e7;
+    --white: #ffffff;
+}
+
 /* Asterix wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -15,14 +23,14 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #100507;
+    color: var(--black);
     font-family: 'roboto-flex', sans-serif;
 }
 
 
 /* Navbar */
 #navbar {
-    background-color: #254e70;
+    background-color: var(--darker-navy);
 }
 
 .navbar .logo {
@@ -35,15 +43,19 @@ body {
 
 /* Main content */
 main {
-    background-color: #ffffff;
+    background-color: var(--white);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 0px;
     height: 50%;
 }
 
+/* Carousel */
+
+
+
 /* Footer */
 footer {
-    background-color: #254e70;
+    background-color: var(--darker-navy);
     color: #ffffff;
 }
