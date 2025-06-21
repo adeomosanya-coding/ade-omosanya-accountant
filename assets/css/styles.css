@@ -32,7 +32,7 @@ header {
 }
 
 #logo {
-    margin-bottom: 0.5em;
+    margin-bottom: 0em;
 }
 
 header a {
@@ -53,6 +53,20 @@ h1 {
 .active {
     border-bottom: 1px solid;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #254e70;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #aef3e7;
+    display: none;
+}
+
+
+
 
 #navigation-menu {
     list-style-type: none;
