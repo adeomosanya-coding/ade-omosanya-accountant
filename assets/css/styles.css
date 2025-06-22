@@ -130,6 +130,10 @@ address {
     border: none;
 }
 
+.google-maps {
+    margin-top: 2rem;
+}
+
 
 /* Footer */
 footer {
