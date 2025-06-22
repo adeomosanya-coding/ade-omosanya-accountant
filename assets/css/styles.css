@@ -30,8 +30,10 @@ body {
 h1 {
     font-family: 'dm-serif-text', serif;
     font-size: 30px;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
     font-weight: bold;
+    text-indent: 0.5rem;
+    color: var(--)
 }
 
 
@@ -57,10 +59,11 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 0px;
-    height: 50%;
+    height: 0%;
 }
 
 /* Carousel */
+
 
 
 /* Who we help cards */
@@ -74,6 +77,19 @@ main {
     font-weight: bold;
 }
 
+.who-we-help-para {
+    text-indent: 0.5rem;
+    width: 50%;
+}
+
+.btn {
+    background-color: var(--darker-navy)
+}
+
+.btn:hover {
+    background-color: var(--lighter-blue)
+}
+
 
 
 /* Footer */
@@ -81,3 +97,9 @@ footer {
     background-color: var(--darker-navy);
     color: #ffffff;
 }
+
+
+
+
+
+
