@@ -27,10 +27,20 @@ body {
     font-family: 'roboto-flex', sans-serif;
 }
 
+h1 {
+    font-family: 'dm-serif-text', serif;
+    font-size: 30px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
 
 /* Navbar */
 #navbar {
     background-color: var(--darker-navy);
+    z-index: 10;
+    position: fixed;
+    width: 100%;
 }
 
 .navbar .logo {
@@ -51,6 +61,22 @@ main {
 }
 
 /* Carousel */
+
+
+/* Who we help cards */
+.card {
+    border-color: #ffffff;
+    background-color: var(--light-green);
+    font-family: 'roboto-flex', sans-serif;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.who-we-help {
+    
+}
 
 
 
