@@ -81,9 +81,13 @@ main {
     font-weight: bold;
 }
 
+.who-we-help {
+    text-align: center;
+}
+
 .who-we-help-para {
     text-indent: 0.5rem;
-    width: 50%;
+    text-align: center;
 }
 
 .btn {
@@ -111,6 +115,15 @@ main {
 
 .form-submit {
     text-align: center;
+}
+
+address {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-submit {
+    border: none;
 }
 
 
