@@ -43,6 +43,7 @@ h1 {
     z-index: 10;
     position: fixed;
     width: 100%;
+    padding-bottom: 0rem;
 }
 
 .navbar .logo {
@@ -144,7 +145,50 @@ address {
 footer {
     background-color: var(--darker-navy);
     color: #ffffff;
+    min-width: 100%;
+    min-height: 100%;   
+   
 }
+
+.footer-area {
+    width: 40%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.opening-times {
+    flex: wrap;
+}
+
+.my-link {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: var(--white);
+    text-align: center;
+}
+
+.my-link-two {
+    text-align: right;
+}
+
+.about-us-header {
+    text-align: center;
+}
+
+.about-us-cover {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.about-us-header h1 {
+    padding-top: 4rem;
+}
+
+
 
 
 
